@@ -19,7 +19,7 @@ body {
   border-radius: 24px;
   border: none;
   color: #fff;
-  background-color: #f5830b;
+  background: linear-gradient(97.61deg, #f67906 0.67%, #f4a81d 89.89%);
 }
 .hover:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
@@ -101,7 +101,7 @@ header ul li a:hover {
 
 .button_header > .sign_up {
   color: #fff;
-  border: 2px solid #f5830b;
+  border: none
   background-color: #f5830b;
 }
 /* title  */
@@ -135,17 +135,16 @@ header ul li a:hover {
   display: inline-block;
   color: #101d48;
 }
-.started > button {
+
+.started > .video_button {
   color: #fff;
-  background-color: #f5830b;
-}
-.started .video_button {
-  background-color: #fff;
+
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 50%;
   height: 60px;
   width: 60px;
   position: relative;
+  background: none;
 }
 
 .triangle-right {
@@ -364,4 +363,3 @@ footer > p {
 .footer_contact > div > p {
   margin: 12px 0px;
 }
-
