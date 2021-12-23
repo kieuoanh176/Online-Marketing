@@ -363,3 +363,90 @@ footer > p {
 .footer_contact > div > p {
   margin: 12px 0px;
 }
+/* responsive  */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  section {
+   margin: 2vh 20px;
+  }
+  .margin_horizontal {
+    margin: 2vh 20px;
+  }
+  .flex {
+    flex-direction: column;
+    gap: 24px;
+  }
+  header ul {
+    display: none;
+  }
+  .front_title {
+    margin-top: 32px;
+  }
+  .sub_title {
+    margin-bottom: 20px;
+  }
+  .people {
+    width: 100%;
+    margin: 12px auto;
+  }
+  .logo_app {
+    width: 100%;
+    gap: 20px;
+    height: 100px;
+  }
+  .logo_app img {
+    width: 82px;
+  }
+  .service_section {
+    min-height: 500px;
+    margin-top: 98px;
+  }
+  .service_section .title_service {
+    margin: 0px 12px;
+}
+  .features_section > img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .features_section >div {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .features_section >.flex >img {
+    width: 120%;
+    margin: 0 140px 3px 2px;
+  }
+  .testmonials_section >img {
+    margin-left: 12px;
+    width: 100%;
+  }
+  .testmonials_section div {
+    text-align: center;
+  }
+  .blog_section {
+    margin: 92px 12px;
+  }
+  .big_title {
+    font-size: 24px;
+  }
+  .background {
+    margin: 64px 4px ;
+  }
+  .newsletter_input > button {
+    left: 166px;
+  }
+  footer {
+    padding: 26px 9px 11px 27px;
+  }
+  footer .flex {
+    flex-direction: row;
+  }
+  footer > p {
+    margin-top: 42px;
+  }
+  .services, .support {
+    display: none;
+  }
+}
